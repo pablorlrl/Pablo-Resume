@@ -26,7 +26,6 @@ This template attempts to **look clean**, highlight **details**, be a **single p
 
 1. OpenFonts version - [as a direct download](https://github.com/pablorlrl/Pablo-Resume/raw/master/OpenFonts/pablo_resume-openfont.pdf)
 2. **Overleaf**.com (formerly **WriteLatex**.com) (v1 fonts/colors changed) - [compilable online](https://www.writelatex.com/templates/pablo-resume/sqdbztjjghvz#.U2H9Kq1dV18)
-3. **ShareLatex**.com (v1 fonts changes) - [compilable online](https://www.sharelatex.com/templates/cv-or-resume/pablo-resume)
 
 ## License
     Copyright 2024 Pablo Ramos
