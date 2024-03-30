@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Pablo - One Page Two Column Resume
 % LaTeX Template
-% Version 1.0 (29/3/2024)
+% Version 1.0
 %
 % Original author:
 % Pablo Ramos (http://pabloramos.net)
@@ -31,7 +31,7 @@
 %     LAST UPDATED DATE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated
+%\lastupdated
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -70,11 +70,19 @@ Github:// \href{https://github.com/pablorlrl}{\bf pablorlrl} \\
 LinkedIn://  \href{https://www.linkedin.com/in/pablo-ramos-lainez/}{\bf Pablo Ramos Lainez} \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LANGUAGES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Languages} 
+Fluent: \textbullet{} Spanish C2 \textbullet{} English C1 \\
+Basic: \textbullet{} Deutsch Kurs belegen \textbullet{} French \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Sw}
-\subsection{Proficient}
+\location{Proficient}
 Clean/Functional/Mantainable Code \textbullet{}
 GIT \textbullet{}
 Docker \textbullet{}
@@ -92,7 +100,7 @@ Arduino \textbullet{}
 Scanlab RTC controllers \textbullet{}
 Signal Analysis \textbullet{}
 
-\subsection{Developing}
+\location{Developing}
 Information Retrieval and web scrapping \textbullet{}
 Operating Systems \textbullet{}
 Artificial Intelligence + Practicum \textbullet{}
@@ -105,8 +113,7 @@ Electronics \textbullet{}
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Skills}
-\subsection{Programming}
+\section{Programming Skills}
 \location{Over 5000 lines:}
 C\# \textbullet{} Java \textbullet{} Python \textbullet{} .NET \textbullet{} Javascript \\
 Php \textbullet{} Matlab \\ 
@@ -130,7 +137,7 @@ Maui \textbullet{} Flutter \textbullet{} Xamarin \textbullet{} CSS \textbullet{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Additional}
-Driving license \& own car \textbullet{} Availability for travel \textbullet{} Harec Certificate \& CEPT T / 
+Driving license \& own car \textbullet{} Ausweis B EU/EFTA \textbullet{} Availability for travel \textbullet{} Harec Certificate \& CEPT T / 
   R 61-01 license for the use of radio stations
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -142,6 +149,13 @@ Driving license \& own car \textbullet{} Availability for travel \textbullet{} H
 \end{minipage} 
 \hfill
 \begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SUMMARY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Summary}
+7 year experienced engineer with focus on tech, growth, and value. Highly organized with a strong drive for learning. Permanently relocated to Switzerland. Currently: St.Gallen.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
