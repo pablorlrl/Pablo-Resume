@@ -1,0 +1,213 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Pablo - One Page Two Column Resume
+% LaTeX Template
+% Version 1.0 (29/3/2024)
+%
+% Original author:
+% Pablo Ramos (http://pabloramos.net)
+%
+% Original repository:
+% https://github.com/pablorlrl/Pablo-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{pablo-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Pablo}{Ramos}{ \urlstyle{same}\href{http://pabloramos.net}{pabloramos.net} \\
+\href{mailto:pablorlrl@hotmail.com}{pablorlrl@hotmail.com} | +41 783.051.336 | +34 648.947.061
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{UPNA University}
+\descript{BS in Telcom Engineering}
+\location{Jun 2019 | Pamplona, Spain}
+Thesis: Analysis of the influence of the positioning of the reference electrode on electromyographic signals.\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/pablorlrl}{\bf pablorlrl} \\
+LinkedIn://  \href{https://www.linkedin.com/in/pablo-ramos-lainez/}{\bf Pablo Ramos Lainez} \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Sw}
+\subsection{Proficient}
+Clean/Functional/Mantainable Code \textbullet{}
+GIT \textbullet{}
+Docker \textbullet{}
+Advanced Machine Learning \textbullet{}
+Cloud Computing \textbullet{}
+Web Services \textbullet{}
+IIS \textbullet{}
+Defending Computer Networks \textbullet{}
+CI+CD pipelines deployment + usage \textbullet{}
+Jenkins \textbullet{}
+Revit + Autocad API \textbullet{}
+OrCAD \textbullet{}
+R \textbullet{}
+Arduino \textbullet{}
+Scanlab RTC controllers \textbullet{}
+Signal Analysis \textbullet{}
+
+\subsection{Developing}
+Information Retrieval and web scrapping \textbullet{}
+Operating Systems \textbullet{}
+Artificial Intelligence + Practicum \textbullet{}
+Graphics + Practicum \textbullet{}
+{\footnotesize \textit{\textbf{(Medical Research Asst.) \textbf(Programming Teaching.)}}} \textbullet{}
+Unix Tools \textbullet{}
+Electronics \textbullet{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Over 5000 lines:}
+C\# \textbullet{} Java \textbullet{} Python \textbullet{} .NET \textbullet{} Javascript \\
+Php \textbullet{} Matlab \\ 
+\location{Over 1000 lines:}
+C \textbullet{} C++ \textbullet{} SQL \textbullet{} PHP \textbullet{} Shell \textbullet{} Html \\
+\location{Familiar:}
+Maui \textbullet{} Flutter \textbullet{} Xamarin \textbullet{} CSS \textbullet{} Assembly \textbullet{} Rails \textbullet{} \LaTeX\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MORE CERTIFICATES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{More Certificates} 
+\textbf{\href{https://www.youracclaim.com/badges/1e03aeae-6507-4f4a-98e4-a201fc5309ee?source=linked_in_profile}{Microsoft Azure certified AZ-900}}\\
+\textbf{\href{https://www.udemy.com/certificate/UC-7cc04bd7-071b-4274-91bd-220a3d51f135/}{Ethical hacking masterclass from JADA eLearning}}\\
+\textbf{\href{https://www.docdroid.net/nckAFuf/net-gdoce-curso-del-sepe-pdf}{Data Science Professional Certificate (IBM)}}\\
+\textbf{\href{https://www.youracclaim.com/badges/1b7c78b9-7f5d-496c-8816-98fc7bc07479/linked_in_profile}{.NET course from fórmate.es //UPDATE LINK//}}\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     ADDITIONAL
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Additional}
+Driving license \& own car \textbullet{} Availability for travel \textbullet{} Harec Certificate \& CEPT T / 
+  R 61-01 license for the use of radio stations
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Safran Vectronix [EXT Akkodis]}
+\descript{| Software Engineer }
+\location{Jun 2023 – Present | Heerbrugg, CH}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Developed and maintained software solutions for Hans project mainly in C\#.
+\item Collaborated with cross-functional teams to implement new features and enhance existing systems.
+\item Participated in the full software development lifecycle, from requirements analysis to deployment and support.
+\item Contributed to code reviews, ensuring code quality and adherence to best practices.
+\item Investigated and resolved software defects, ensuring optimal performance and user satisfaction.
+\end{tightemize}
+
+\runsubsection{FsGroup}
+\descript{| R\&D Software Engineer }
+\location{Jun 2021 - Jun 2023 | Pamplona, ES}
+\begin{tightemize}
+\item IoTGear (Whole crop sensor, analysis and monitoring systems: PostgreSQL backend + api generation + C\# development + app generation with Flutter, Xamarin \& Maui.) - [mar/22 - jun/23]
+\item APS (Programming of systems for the manufacture of packaging by laser-welding and sequential inflation of plastic sheets: C\#, IIS, Modbus) - [jun/21- jun/23] 
+\item Smart mirror (Development of systems for the generation of a radar installable in light vehicles in order to control dangerous situations on the road: Python, Ionic) - [jun/21 - jul/21]
+\end{tightemize}
+
+\runsubsection{Vanadys}
+\descript{| Backend Sw Engineer }
+\location{Jan 2021 – May 2021 | Pamplona, ES}
+\begin{tightemize}
+\item LCI (customer relationship management: laravel/laragon/php/sql/sqlserver)
+\end{tightemize}
+
+\runsubsection{Orbital Critical Systems}
+\descript{| Developer \&\& Tester Engineer }
+\location{Jul 2019 – Dec 2020 | Pamplona, ES}
+\begin{tightemize}
+\item Mercury Mission Systems International SA (Project to introduce a more complex masurements to GPS, Galileo, Geo 1 \& Geo 2 satellite tracking clusters: Unitary testing of C++ code) - [jul/20 - dec/20]
+\item Beacon frames (RAIL related project for Connecta-2: Dev \& Test in C) - [mar/20 - jul/20]
+\item Axel counter (Project for coordination of CAF train wagons: Dev \& Test in C) - [mar/20]
+\item Favit (MISSION co-project for Clean Sky 2 about R\&D testing compliance roadmaps) - [mar/20]
+\item Kappa project (Checklist developer) - [jan/20 - feb/20]
+\item CAF modular systems (Designer \& tester in Matlab/Simulink) - [sept/19 - mar/20]
+\item MST ATPs Workpackage for Eurofighter Simulator (Main Python tester) - [jul/19 - sept/19]
+\end{tightemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PERSONAL PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Personal Projects}
+\runsubsection{Arduino PCB shield comm transceiver}
+\descript{| Electronics}
+\location{2018 | Pamplona, ES}
+Worked with \textbf{\href{https://www.linkedin.com/in/santiagoledramos/}{Santiago Led Ramos}} to create a \textbf{\href{https://workspace.circuitmaker.com/Projects/Details/Pablo-Ramos/Shield}{Shield}}, an expansion board for Arduino microcontrollers, providing additional functionalities to enhance its capabilities. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publications} 
+\renewcommand\refname{\vskip - 0.8 cm} % Couldn't get this working from the .cls file
+\bibliographystyle{abbrv}
+\bibliography{publications}
+\nocite{*}
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
